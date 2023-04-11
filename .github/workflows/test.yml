@@ -1,0 +1,6 @@
+name: test
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    name: Test
+    uses: jf-fi/actions-grader/.github/workflows/test.yml@main
